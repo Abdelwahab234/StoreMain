@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@media (width < 1195px) {
+    .containerDef{ 
+        grid-template-columns: repeat(3 , 1fr);
+}
+
+}
+body{ 
+    background-color:black;
+    
+}
+    .containerDef{ 
+        width:100vw;
+}
+@media (width < 985px) {
+    .containerDef{ 
+   
+        grid-template-columns: repeat(2 , 1fr);
+}
+
+}
+body{ 
+    background-color:black;
+}
+    .containerDef{ 
+        width:100vw;
+}
+@media (width < 652px) {
+    .containerDef{ 
+
+        grid-template-columns: repeat(1 , 1fr);
+}
+
+}
+
+.signInButton{
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+}
+
+.card{ 
+    width:100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:linear-gradient(#0055ff , rgb(255, 0, 0) ,to right);
+    align-content: center;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+*{
+scroll-behavior: smooth;
+}
+.ulpar a{
+
+    transition: 0.4s ease all;
+    padding:10px ;
+}
+.ulpar a:hover{ 
+    background-color: #0055ff;
+    color:white;
+}
+/* * { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container { 
+    display: flex;
+    gap: 25px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card { 
+    background: white; 
+    width: 240px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a11cb;
+    margin-bottom: 10px;
+}
+
+.card .description {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+.card .details { 
+    padding: 10px 20px; 
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card .details:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+} */

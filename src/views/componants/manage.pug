@@ -1,0 +1,64 @@
+extends ../layout/base
+
+
+block content 
+        link(rel="stylesheet", href="styles/manager.css")
+        .managecontainer
+          .navmanage
+            ul
+              li.infoButton Profile
+              li.manageButton Manage Products
+          .profilesec
+            .showinfo
+              // image in static
+              .infouser
+            
+                h2 Wep Link
+                h2.link=link
+              img.photouser(src='./Screenshot 2025-11-06 063546.png' alt='')
+            form.formuserinfo(action='')
+              label(for='') Name
+              input(type='text' placeholder='name' )
+              label(for='email') Email
+              input.email(type='email' placeholder='email')
+              label(for='reemail') Retype Email
+              input.reemail(type='email' placeholder='RE email')
+              button.submitInofo Submit
+          .productsec(style='display: none;')
+            div
+              form.formProductAdd(action='')
+                img(src='' alt='')
+                .productdata
+                  li Title
+                  input(type='text' id="titleinput" )
+                  li Description
+                  input(type=''  id="DescriptionInput" )
+                  li
+                    | Price 
+                    span All : 
+                  input(type='number' id="priceInput")
+                  li
+                    | Image Url 
+                    span (OPTIONAL)
+                  input(type='url' id="imgurlInput")
+                  button(id="ButtomEdit") Add Product
+            .searchContaition 
+              h2 Search
+              form.searchForm(action="" )
+                li Title 
+                input.searchInput(type="text")
+            
+                button.clear Clear Search
+
+                 
+            .ProductsManage
+              .productcard.a1
+                img(src='./Screenshot 2025-11-06 063546.png' alt='')
+                h2 Generator 
+                p for make fast data
+                small 200%
+                .buttonscard
+                  button(name='1') Delete
+                  button Edit
+        script(src='./scripts/manage.js')
+
