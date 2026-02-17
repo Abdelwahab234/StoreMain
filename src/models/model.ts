@@ -43,7 +43,11 @@ export class model {
   } 
 
    pool: Pool  = new Pool({
-      connectionString:"postgresql://postgres:REiRgrMWLfiHEjfMjpkgOfAIFcoITiyk@postgres.railway.internal:5432/railway"
+      connectionString:"postgresql://postgres:REiRgrMWLfiHEjfMjpkgOfAIFcoITiyk@postgres.railway.internal:5432/railway",
+      user:"postgres",
+      database:"Postgres",
+      password:"REiRgrMWLfiHEjfMjpkgOfAIFcoITiyk"
+      
    }) ;
   constructor() {
    
@@ -91,6 +95,7 @@ export class model {
 
   
 }
+
 
 
 
