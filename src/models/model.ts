@@ -43,11 +43,11 @@ export class model {
   } 
 
    pool: Pool  = new Pool({
-      database :process.env.database, 
-      user : process.env.user, 
-      password : process.env.password
+      database : "Postgres" , 
+      user : "postgres", 
+      password : "REiRgrMWLfiHEjfMjpkgOfAIFcoITiyk"
       ,
-      host:process.env.host 
+      host:"postgresql://postgres:REiRgrMWLfiHEjfMjpkgOfAIFcoITiyk@postgres.railway.internal:5432/railway"
    }) ;
   constructor() {
    
@@ -95,4 +95,5 @@ export class model {
 
   
 }
+
 
