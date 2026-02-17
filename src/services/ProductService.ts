@@ -1,10 +1,10 @@
 import { Request } from "express";
 import { Product } from "../interfaces";
-import { generateFakeProducts } from "../utils/fakeData";
+import { generateFakeProducts } from "./../utils/fakeData";
 import * as fs from "fs";
 import {pathdata} from "./../utils/fakeData"
 import { Pool } from "pg";
-import { model as Model } from "../models/model";
+import { model as Model } from "./../models/model";
 // add data and return it
 type ProductBody = {
   title: string;

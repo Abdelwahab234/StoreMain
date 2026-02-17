@@ -29,7 +29,7 @@ class ProductController {
        return ;
       }
       let product = await this.productService.getProductById(productId);
-      if (product){ 
+      if (product){
 
         res.send({
           message : product

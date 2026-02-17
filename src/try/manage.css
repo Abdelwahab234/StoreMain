@@ -1,0 +1,231 @@
+*{ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  padding:0;
+  transition: 0.3s ease-in-out all;
+  margin: 0;
+}
+.managecontainer{ 
+  background-color: rgba(255, 0, 0, 0);
+  width:100%; 
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navmanage{ 
+  width:15%;
+  background-color: rgba(255, 255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* align-items: flex-start;
+  align-content: flex-start; */
+    
+  /* overflow: hidden  ; */
+}
+.navmanage li { 
+
+  margin-top: 30px;
+
+  font-size: large;
+  background-color: rgb(255, 255, 255);
+  padding:10px ;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.332);
+  
+} 
+.navmanage li:hover { 
+scale: 1.1;
+cursor: pointer;
+
+} 
+.photouser{ 
+  width:130px;
+  border-radius: 50%;
+  height: 130px;
+ 
+}
+.showinfo{ 
+  background-color : rgba(255, 217, 0, 0);
+  width: 100%;
+}
+.showinfo{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 35%;
+  background-color: white;
+  width: 90%;
+  margin: auto auto;
+  margin-top:10px ;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+
+}
+.profilesec{ 
+  width: 85%;
+
+}
+.infouser{ 
+  background-color:rgba(255, 255, 0, 0);
+
+  width:40%;
+}
+.infouser h2 { 
+  font-weight: 200;
+  text-align: center;
+
+
+}
+
+.showinfo:hover {
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.253);
+  
+}
+
+.formuserinfo{ 
+  background-color: red;
+  height: 100%  ;
+    width:100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  width: 90%;
+  margin: auto auto;
+  margin-top:10px ;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.253);
+  flex-direction: column;
+}
+.formuserinfo label{ 
+  font-size: 20px;
+  font-weight: 100;
+    margin-top: 10px;
+}
+.formuserinfo input{ 
+  font-size: 20px;
+  font-weight: 100;
+  padding:4px;
+ 
+  border: none;
+  outline: none;
+
+  border-bottom: 1px solid black;
+}
+.submitInofo , .formProductAdd button , .productcard button{
+  padding : 10px 30px ;
+  border-radius: 10px;
+  color :white;
+  outline: 0;
+  border: none;
+  margin-top:10px ;
+  width:150px;
+  background-color: #17243e;
+  
+}
+.submitInofo:hover , .formProductAdd button:hover ,.productcard button:hover{
+  cursor: pointer;
+}
+.formProductAdd{ 
+  background-color: rgb(255, 255, 255);
+
+  
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center ;
+  align-items: center ;
+  width: 80%;
+  margin:auto auto;
+  padding: 30px;
+ 
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.253);
+  
+}
+.productsec{ 
+  background-color: rgba(255, 0, 0, 0);
+  width: 100%;
+}
+
+  
+.formProductAdd li { 
+  text-align: center;
+  margin-top: 10px;
+}
+.formProductAdd li , .formProductAdd input{
+    font-size: 20px;
+  font-weight: 100;
+  padding:4px;
+ 
+  border: none;
+  outline: none;
+
+  
+
+}
+.formProductAdd input{
+  background-color: rgba(128, 128, 128, 0.227);
+}
+
+.productdata{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProductsManage{ 
+  width: 100%;
+  height:100vh ; 
+
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin:auto auto;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.253);
+
+}
+.productcard{ 
+  width:100px;
+  height :400px; 
+  background-color: rgb(255, 255, 255);
+  width:190px;
+  height: 340px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.253);
+  padding:30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.productcard img{ 
+  width:130px;
+  height: 200px;
+  ;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.253);
+
+}
+.productcard button{
+  width:100px;
+  padidng:10px 20px ;
+  text-align: center;
+}
+.productcard .buttonscard{ 
+  display: flex;
+  gap: 10px;
+}

@@ -1,7 +1,7 @@
 {
   "type": "commonjs",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "nodemon src/server.ts",
     "dev": "nodemon src/server.ts",
     "build": "tsc -p .",
     "make": "npx @tailwindcss/cli -i ./src/input.css -o ./src/public/styles/output.css --watch"

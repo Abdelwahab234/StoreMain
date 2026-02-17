@@ -1,10 +1,11 @@
 # YOUR PROJECT TITLE : StoreMain (Product Management System designed for small businesses or individual sellers)
 
 
- 
+#### Video Demo: https://www.youtube.com/watch?v=cjJWCCBw9IU&t=6s
+
 
 #### Description:
-  Product Management System designed for small businesses or individual sellers.
+My final CS50 project is a Product Management System designed for small businesses or individual sellers.
 It allows a store owner (Manager) to register, log in, and manage their products through an intuitive interface.
 
 In the Manager Page, the user can:
@@ -33,6 +34,5 @@ PostgreSQL – as a relational database storing users, products, and their relat
 JWT + Cookies – for secure authentication and session management
 
 This project aims to provide a simple yet powerful way to manage products, combining a user-friendly interface for managers with a smooth viewing experience for customers.
-
 
 TODO
